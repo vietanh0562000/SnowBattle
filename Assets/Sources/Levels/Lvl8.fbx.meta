@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 45dbf333204e15642aabafba9caccce2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ground_005_01
+    100004: ground_005_010
+    100006: ground_005_011
+    100008: ground_005_012
+    100010: ground_005_013
+    100012: ground_005_014
+    100014: ground_005_015
+    100016: ground_005_016
+    100018: ground_005_017
+    100020: ground_005_018
+    100022: ground_005_019
+    100024: ground_005_02
+    100026: ground_005_020
+    100028: ground_005_021
+    100030: ground_005_022
+    100032: ground_005_023
+    100034: ground_005_024
+    100036: ground_005_03
+    100038: ground_005_04
+    100040: ground_005_05
+    100042: ground_005_06
+    100044: ground_005_07
+    100046: ground_005_08
+    100048: ground_005_09
+    100050: Mesh
+    400000: //RootNode
+    400002: ground_005_01
+    400004: ground_005_010
+    400006: ground_005_011
+    400008: ground_005_012
+    400010: ground_005_013
+    400012: ground_005_014
+    400014: ground_005_015
+    400016: ground_005_016
+    400018: ground_005_017
+    400020: ground_005_018
+    400022: ground_005_019
+    400024: ground_005_02
+    400026: ground_005_020
+    400028: ground_005_021
+    400030: ground_005_022
+    400032: ground_005_023
+    400034: ground_005_024
+    400036: ground_005_03
+    400038: ground_005_04
+    400040: ground_005_05
+    400042: ground_005_06
+    400044: ground_005_07
+    400046: ground_005_08
+    400048: ground_005_09
+    400050: Mesh
+    2100000: bg_ground_0002
+    2100002: bg_ground_0001
+    2300000: ground_005_01
+    2300002: ground_005_010
+    2300004: ground_005_011
+    2300006: ground_005_012
+    2300008: ground_005_013
+    2300010: ground_005_014
+    2300012: ground_005_015
+    2300014: ground_005_016
+    2300016: ground_005_017
+    2300018: ground_005_018
+    2300020: ground_005_019
+    2300022: ground_005_02
+    2300024: ground_005_020
+    2300026: ground_005_021
+    2300028: ground_005_022
+    2300030: ground_005_023
+    2300032: ground_005_024
+    2300034: ground_005_03
+    2300036: ground_005_04
+    2300038: ground_005_05
+    2300040: ground_005_06
+    2300042: ground_005_07
+    2300044: ground_005_08
+    2300046: ground_005_09
+    3300000: ground_005_01
+    3300002: ground_005_010
+    3300004: ground_005_011
+    3300006: ground_005_012
+    3300008: ground_005_013
+    3300010: ground_005_014
+    3300012: ground_005_015
+    3300014: ground_005_016
+    3300016: ground_005_017
+    3300018: ground_005_018
+    3300020: ground_005_019
+    3300022: ground_005_02
+    3300024: ground_005_020
+    3300026: ground_005_021
+    3300028: ground_005_022
+    3300030: ground_005_023
+    3300032: ground_005_024
+    3300034: ground_005_03
+    3300036: ground_005_04
+    3300038: ground_005_05
+    3300040: ground_005_06
+    3300042: ground_005_07
+    3300044: ground_005_08
+    3300046: ground_005_09
+    4300000: ground_005_01
+    4300002: ground_005_02
+    4300004: ground_005_03
+    4300006: ground_005_04
+    4300008: ground_005_05
+    4300010: ground_005_06
+    4300012: ground_005_07
+    4300014: ground_005_08
+    4300016: ground_005_09
+    4300018: ground_005_010
+    4300020: ground_005_011
+    4300022: ground_005_012
+    4300024: ground_005_013
+    4300026: ground_005_014
+    4300028: ground_005_015
+    4300030: ground_005_016
+    4300032: ground_005_017
+    4300034: ground_005_018
+    4300036: ground_005_019
+    4300038: ground_005_020
+    4300040: ground_005_021
+    4300042: ground_005_022
+    4300044: ground_005_023
+    4300046: ground_005_024
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
