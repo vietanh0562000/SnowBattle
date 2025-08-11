@@ -26,6 +26,7 @@ public class ShopPanel : PopupPanel
     [SerializeField] private Text buyButtonLabel;
     [SerializeField] private Button selectButton;
     [SerializeField] private Text selectButtonLabel;
+    [SerializeField] private GameObject icon;
     [SerializeField] private Camera previewCamera;
     [SerializeField] private Transform snowVehicleRoot;
     [SerializeField] private SnowVehicleData[] snowVehicleData;
@@ -91,14 +92,30 @@ public class ShopPanel : PopupPanel
     #region Base class overrides
     public override void UpdateInfo()
     {
+        icon.SetActive(true);
         fundsLabel.text = GameManager.Funds.ToString();
 
         // Buy button
         buyButton.gameObject.SetActive(!GameManager.Instance.SnowVehicleIsBought(Index));
-        bool enoughFunds = GameManager.Funds >= snowVehicleData[Index].price;
-        buyButton.interactable = enoughFunds;
-        buyButtonLabel.text = enoughFunds ? "BUY" : "NOT ENOUGH FUNDS";
-
+        if (!GameManager.Instance.SnowVehicleIsBought(Index))
+        {
+            if (snowVehicleData[Index].price > 0)
+            {
+                bool enoughFunds = GameManager.Funds >= snowVehicleData[Index].price;
+                buyButton.interactable = enoughFunds;
+                buyButtonLabel.text = enoughFunds ? "BUY" : "NOT ENOUGH FUNDS";
+            }
+            else
+            {
+                icon.SetActive(false);
+                buyButton.interactable = true;
+                priceLabel.text = "$" + -snowVehicleData[Index].price;
+                buyButtonLabel.text = "BUY";
+                return;
+            }
+        }
+        
+        
         // Select button
         selectButton.gameObject.SetActive(!buyButton.gameObject.activeSelf);
         selectButton.interactable = GameManager.SnowVehicleIndex != Index;
@@ -125,7 +142,11 @@ public class ShopPanel : PopupPanel
 
     public void Buy()
     {
-        GameManager.Instance.BuySnowVehicle(Index, snowVehicleData[Index].price);
+        if (snowVehicleData[Index].price <= 0)
+        {
+            PurchasingManager.OnPressDown(Index);   
+        }
+        GameManager.Instance.BuySnowVehicle(Index, (int)snowVehicleData[Index].price);
         UpdateInfo();
         GameManager.Instance.UpdateSnowVehicleForceAndSpeed(snowVehicleData[Index].powerIncrease,
             snowVehicleData[Index].speedIncrease);

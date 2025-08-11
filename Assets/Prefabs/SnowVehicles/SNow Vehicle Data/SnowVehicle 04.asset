@@ -16,7 +16,7 @@ MonoBehaviour:
   punchForce: 0
   speed: 0
   snowBallGrowSpeed: 0
-  price: 4000
+  price: -3.99
   powerIncrease: 15
   speedIncrease: 15
   model: {fileID: 100000, guid: 80329101e017e4f43a24235852bd0a43, type: 3}

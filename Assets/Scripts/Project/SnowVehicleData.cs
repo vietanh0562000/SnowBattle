@@ -9,7 +9,7 @@ public class SnowVehicleData : ScriptableObject
     public float punchForce = 1;
     public float speed = 1;
     public float snowBallGrowSpeed = 1;
-    public int price = 1000;
+    public float price = 1000;
     public int powerIncrease;
     public int speedIncrease;
 

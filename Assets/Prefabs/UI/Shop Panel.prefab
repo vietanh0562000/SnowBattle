@@ -737,6 +737,7 @@ MonoBehaviour:
   buyButtonLabel: {fileID: 2934182139996095940}
   selectButton: {fileID: 3658618578132532920}
   selectButtonLabel: {fileID: 4448512205526523571}
+  icon: {fileID: 7991663641654824238}
   previewCamera: {fileID: 3542015486919523069}
   snowVehicleRoot: {fileID: 4064970459857204175}
   snowVehicleData:
